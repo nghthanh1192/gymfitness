@@ -10,3 +10,13 @@
     Tags: CSS Grid, Flexbox ready, mobile first, gym theme
     Text Domain: gymfitness    
 */
+:root {
+    /* Font */
+    --mainFont : 'Staatliches', cursive;
+    --textFont : 'Open Sans', sans-serif;
+    --secondaryFont : 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--textFont);
+}
