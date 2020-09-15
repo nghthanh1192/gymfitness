@@ -12,7 +12,7 @@
         <div class="navigation-bar">
             <div class="logo">
                 <a href="<?php echo home_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri() . "/img/logo.svg" ?>" alt="Site logon">
+                    <img src="<?php echo get_template_directory_uri() . "/img/logo.svg" ?>" alt="Site logo">
                 </a>
             </div><!--/logo-->
             <!-- Todo add menu -->
