@@ -3,10 +3,11 @@
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-wp-content/*
+/wp-content/*
 !/mu-plugins/
 !/plugins/
 !/themes/
+/uploads
 
 # ignore these plugins
 
