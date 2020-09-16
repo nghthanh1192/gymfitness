@@ -6,7 +6,7 @@
             <?php 
                 // check if an image exist
                 if (has_post_thumbnail()) :
-                    the_post_thumbnail();
+                    the_post_thumbnail('blog');
                 else:
                     echo "<p>not image</p>";
                 endif; 
