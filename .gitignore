@@ -11,6 +11,7 @@
 
 # ignore these plugins
 /plugins/regenerate-thumbnails/
+/plugins/advanced-custom-fields/
 
 # ignore specific themes
 themes/*
