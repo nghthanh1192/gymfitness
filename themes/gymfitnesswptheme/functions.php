@@ -62,7 +62,7 @@ function gymfitness_widgets() {
         'name' => 'Sidebar',
         'before_widget' => '<div class="widget">',
         'after_widget' => '</div>',
-        'befor_title' => '<h3>',
+        'befor_title' => '<h3 class="text-primary">',
         'after_title' => '</h3>'
     ));
 }
