@@ -12,6 +12,7 @@
 # ignore these plugins
 /plugins/regenerate-thumbnails/
 /plugins/advanced-custom-fields/
+/plugins/disable-gutenberg/
 
 # ignore specific themes
 themes/*
