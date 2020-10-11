@@ -13,7 +13,10 @@
 /plugins/regenerate-thumbnails/
 /plugins/advanced-custom-fields/
 /plugins/disable-gutenberg/
-
+/plugins/contact-form-7
+/plugins/acf-leaflet-map-field
+/plugins/google-maps-widget
+/plugins/wp-google-maps
 # ignore specific themes
 themes/*
 !gymfitnesswptheme/
