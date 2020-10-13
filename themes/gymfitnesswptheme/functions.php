@@ -77,3 +77,12 @@ function gymfitness_widgets() {
     ));
 }
 add_action('widgets_init', 'gymfitness_widgets');
+
+/** Display the Hero image on background of the front-page */
+function gymfitness_hero_image() {
+    $front_page_id = get_option('page_on_front');
+    $image_id = get_field('hero_image', $front_page_id);
+
+    var_dump($image_id);
+}
+add_action('init', 'gymfitness_hero_image');
