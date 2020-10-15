@@ -57,6 +57,16 @@
             </div>
         </section>
 
+        <secion class="instructors">
+            <div class="container section">
+                <h2 class="text-center">Our Instructors</h2>
+                <p class="text-center">Professional instructors that will help you achieve the goald</p>
+                
+                <?php gymfitness_instructors_list(); ?>
+            </div>
+        </secion>
+
+
     <?php endwhile; ?>
 
 <?php get_footer(); ?>
